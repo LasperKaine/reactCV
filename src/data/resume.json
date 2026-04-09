@@ -1,0 +1,119 @@
+{
+  "basics": {
+    "name": "Your Name",
+    "email": "kasperlaine05@gmail.com",
+    "phone": "+358 44 0723762",
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "url": "https://linkedin.com/in/your-profile"
+      },
+      {
+        "network": "GitHub",
+        "url": "https://github.com/your-username"
+      },
+      {
+        "network": "Portfolio",
+        "url": "https://your-portfolio.com"
+      }
+    ],
+    "summary": "ICT graduate from Business College Helsinki with a focus on web development. Frontend-oriented developer experienced in React, WordPress, and modern web technologies. Strong interest in building user-focused applications and continuously improving technical skills."
+  },
+  "work": [
+    {
+      "name": "Alfons Digital Oy",
+      "position": "Frontend / WordPress Developer",
+      "startDate": "8.1.2024",
+      "endDate": "25.5.2024",
+      "summary": "Developed and maintained WordPress websites using React, PHP, and Tailwind. Built responsive UI components and worked with modern development workflows (Git, NPM). Collaborated on multiple client projects.",
+      "skills": ["React", "WordPress", "PHP", "Tailwind", "CSS", "SCSS", "Git", "NPM"],
+      "color": "#2ecc71"
+    },
+    {
+      "name": "Helsingin kaupunki",
+      "position": "IT Support Assistant (Digitalkkari)",
+      "startDate": "10.8.2022",
+      "endDate": "9.10.2022",
+      "summary": "Provided hands-on IT support including troubleshooting devices, installing computers, and guiding users. Created user-friendly documentation and assisted in digital support sessions.",
+      "skills": ["Windows", "iOS", "Android", "Excel", "Word"],
+      "color": "#3498db"
+    },
+    {
+      "name": "Helsinki Business College Oy",
+      "position": "Social Media Manager",
+      "startDate": "10.8.2022",
+      "endDate": "1.6.2023",
+      "summary": "Managed the school’s Snapchat account, creating content and promoting events. Increased student engagement and maintained consistent content strategy.",
+      "skills": ["Content Creation", "Social Media"],
+      "color": "#9b59b6"
+    },
+    {
+      "name": "Other Experience",
+      "position": "Customer Service & Entry-Level Roles",
+      "startDate": "2020",
+      "endDate": "2024",
+      "summary": "Worked in fast-paced environments including retail and food service. Gained experience in customer service, teamwork, and responsibility.",
+      "color": "#95a5a6"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Business College Helsinki",
+      "area": "Information and Communication Technology",
+      "studyType": "Vocational Qualification",
+      "startDate": "4.8.2021",
+      "endDate": "Present",
+      "summary": "Specialized in web development.",
+      "courses": [
+        "Web development (JavaScript, Node.js)",
+        "Frontend development (HTML, CSS, React)",
+        "Working in software development teams",
+        "Software development fundamentals"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Frontend Development",
+      "keywords": ["HTML5", "CSS3", "JavaScript", "React", "Vue", "Tailwind"]
+    },
+    {
+      "name": "Backend & CMS",
+      "keywords": ["PHP", "WordPress", "Node.js"]
+    },
+    {
+      "name": "Programming",
+      "keywords": ["Python (Basics)"]
+    },
+    {
+      "name": "Tools",
+      "keywords": ["Git", "NPM", "Visual Studio Code"]
+    },
+    {
+      "name": "Office & Productivity",
+      "keywords": ["Word", "Excel", "PowerPoint"]
+    },
+    {
+      "name": "Creative Tools",
+      "keywords": ["Photoshop", "Illustrator", "After Effects", "Premiere Pro"]
+    },
+    {
+      "name": "Hardware & IT",
+      "keywords": ["Computer assembly", "Maintenance", "Upgrading"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Finnish",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": "Good"
+    },
+    {
+      "language": "Swedish",
+      "fluency": "Basic"
+    }
+  ]
+}
