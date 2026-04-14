@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text } from '@react-pdf/renderer';
-import { Tag } from './Tag.tsx';
-import { tagColors } from '../constants/tagColors.ts';
+import { Tag } from './Tag';
+import { tagColors } from '../constants/tagColors';
 
 interface TimelineItemProps {
   title: string;

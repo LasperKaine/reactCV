@@ -1,7 +1,7 @@
 import React from 'react';
 import { Document, Page, View, Text } from '@react-pdf/renderer';
-import { Box, TimelineItem } from './components/index.ts';
-import { ResumeData } from './types/resume.ts';
+import { Box, TimelineItem } from './components/index';
+import { ResumeData } from './types/resume';
 
 export const CVDocument = ({ data }: { data: ResumeData }) => (
   <Document>

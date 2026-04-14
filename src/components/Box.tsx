@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text } from '@react-pdf/renderer';
-import { SectionHeader } from './SectionHeader.tsx';
+import { SectionHeader } from './SectionHeader';
 
 interface BoxProps {
   title: string;

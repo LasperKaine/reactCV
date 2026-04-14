@@ -1,7 +1,7 @@
 import { renderToFile } from '@react-pdf/renderer';
 import path from 'path';
 import resumeData from './data/resume.json';
-import { CVDocument } from './CV.tsx';
+import { CVDocument } from './CV';
 
 const outputPath = path.join(__dirname, 'dist', 'resume.pdf');
 
