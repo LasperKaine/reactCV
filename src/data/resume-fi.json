@@ -1,0 +1,129 @@
+{
+  "basics": {
+    "name": "Kasper Laine",
+    "email": "kasperlaine05@gmail.com",
+    "phone": "+358 44 0723762",
+    "location": "Helsinki, Suomi",
+    "summary": "Ohjelmistokehittäjä, jolla on käytännön kokemusta full-stack-verkkosovelluskehityksestä",
+    "about": "Motivoitunut ohjelmistokehittäjä hakee junior-kehittäjän tehtävää osallistuakseen todellisiin projekteihin ja kasvaakseen ammattimaisessa tiimissä. Kokemusta verkkosovelluksista React, Node.js ja Express modernilla teknologioilla.",
+    "profiles": [
+      { "url": "https://github.com/LasperKaine", "label": "GitHub", "display": "github.com/LasperKaine" },
+      { "url": "https://linkedin.com/in/kasper-laine-4a131231", "label": "LinkedIn", "display": "linkedin.com/in/kasper-laine-4a131231" },
+      { "url": "https://portfolio-coming-soon.com", "label": "Portfolio", "display": "Salkku (tulossa pian)" }
+    ]
+  },
+  "work": [
+    {
+      "name": "Alfons Digital Oy",
+      "position": "Frontend / WordPress -kehittäjä",
+      "startDate": "8.1.2024",
+      "endDate": "25.5.2024",
+      "summary": "Kehitin ja ylläpidin WordPress-verkkosivustoja käyttäen React, PHP ja Tailwind-teknologioita. Rakensin responsiivisia UI-komponentteja ja työskentelin käyttäen moderneja kehitys työkaluja (Git, NPM). Yhteistyö useissa asisakasprojekteissa.",
+      "skills": ["React", "WordPress", "PHP", "Tailwind", "CSS", "SCSS", "Git", "NPM"],
+      "color": "#8e44ad"
+    },
+    {
+      "name": "Helsingin kaupunki",
+      "position": "IT-tuen assistentti (Digitalkkari)",
+      "startDate": "10.8.2022",
+      "endDate": "9.10.2022",
+      "summary": "Annoin käytännön IT-tukea, mukaan lukien laitteiden vianmääritys, tietokoneiden asennus ja käyttäjien ohjaus. Loin käyttäjäystävällistä dokumentaatiota ja osallistuin digitaalisiin tukisessioihin.",
+      "skills": ["Windows", "iOS", "Android", "Excel", "Word", "PowerPoint"],
+      "color": "#8e44ad"
+    },
+    {
+      "name": "Helsinki Business College Oy",
+      "position": "Sosiaalisen median johtaja",
+      "startDate": "10.8.2022",
+      "endDate": "1.6.2023",
+      "summary": "Hallinnoin koulun Snapchat-tiliä, loin sisältöä ja mainostin tapahtumia. Lisäsin opiskelijoiden osallistumista ja ylläpidin johdonmukaista sisältöstrategiaa.",
+      "skills": ["Sisällöntuotanto", "Sosiaalinen media"],
+      "color": "#8e44ad"
+    },
+    {
+      "name": "Helsinki Business College Oy",
+      "position": "Striimaaja ja moderaattori",
+      "startDate": "4.11.2022",
+      "endDate": "24.2.2023",
+      "summary": "Osallistuin intensiiviseen striimausmaratonitapahtumaan. Hallinnoin live Twitch-striimejä, moderoinnin chattia ja suunnittelin striimausstrategiaa.",
+      "skills": ["Live-striimaus", "Yhteisöhallinto", "Sisällön suunnittelu", "Twitch"],
+      "color": "#8e44ad"
+    },
+    {
+      "name": "Muut kokemukset",
+      "position": "Asiakaspalvelu ja aloittelijan tehtävät",
+      "startDate": "2020",
+      "endDate": "2024",
+      "summary": "Työskentelin nopeaa tahtia pitävässä ympäristössä kaupassa ja pikaruokaravintolassa. Sain kokemusta asiakaspalvelusta, tiimityöstä ja vastuullisuudesta.",
+      "color": "#8e44ad"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Metropolia ammattikorkeakoulu",
+      "area": "Tieto- ja viestintätekniikka",
+      "studyType": "Insinööri (AMK), ohjelmistotekniikka",
+      "startDate": "2025",
+      "endDate": "Nykyään",
+      "summary": "Ohjelmistotekniikan opiskelija Metropolia ammattikorkeakoulussa, erikoistuminen ohjelmistotuotantoon. Perehtyminen ohjelmistotekniikkaan, taustapalveluihin ja moderniin sovelluskehitykseen, altistuminen data-ohjatuille ja tekoäly-liittyville ohjelmistokonsepteille. Käytännön taitojen kehittäminen kehitysprojekteissa käyttäen moderneja verkkoteknologioita ja ohjelmistosuunnittelukäytäntöjä."
+    },
+    {
+      "institution": "Business College Helsinki",
+      "area": "Tieto- ja viestintätekniikka",
+      "studyType": "Ammatillinen tutkinto",
+      "startDate": "4.8.2021",
+      "endDate": "22.5.2024",
+      "summary": "Erikoistuminen verkkokehitykseen.",
+      "courses": [
+        "Verkkokehitys (JavaScript, Node.js)",
+        "Frontend-kehitys (HTML, CSS, React)",
+        "Työskenteleminen ohjelmistokehitystiimeissä",
+        "Ohjelmistokehityksen perusteet"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Frontend-kehitys",
+      "keywords": ["HTML5", "CSS3", "JavaScript", "React", "Vue", "Tailwind", "WordPress", "SCSS", "TypeScript"]
+    },
+    {
+      "name": "Backend ja CMS",
+      "keywords": ["PHP", "WordPress", "Node.js", "Express.js", "REST API:t", "MySQL", "MariaDB", "HeidiSQL"]
+    },
+    {
+      "name": "Ohjelmointi",
+      "keywords": ["Python", "Java", "C#"]
+    },
+    {
+      "name": "Työkalut",
+      "keywords": ["Git", "NPM", "Visual Studio Code", "Nano", "Linux"]
+    },
+    {
+      "name": "Toimisto ja tuottavuus",
+      "keywords": ["Word", "Excel", "PowerPoint"]
+    },
+    {
+      "name": "Luovat työkalut",
+      "keywords": ["Photoshop", "Illustrator", "After Effects", "Premiere Pro"]
+    },
+    {
+      "name": "Laitteisto ja IT",
+      "keywords": ["Tietokoneen kokoaminen", "Ylläpito", "Päivitys"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Suomi",
+      "fluency": "Äidinkieli"
+    },
+    {
+      "language": "Englanti",
+      "fluency": "Hyvä"
+    },
+    {
+      "language": "Ruotsi",
+      "fluency": "Perustaso"
+    }
+  ]
+}
