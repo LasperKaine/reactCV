@@ -1,0 +1,139 @@
+{
+  "basics": {
+    "name": "Kasper Laine",
+    "email": "kasperlaine05@gmail.com",
+    "phone": "+358 44 0723762",
+    "location": "Helsinki, Finland",
+    "summary": "Versatile professional with strong communication and project management skills",
+    "about": "Organized and adaptable professional with proven experience in customer engagement, content creation, and team collaboration. Skilled at managing projects from conception to completion, building relationships, and delivering results in fast-paced environments. Seeking a role where I can apply my communication, organizational, and problem-solving abilities.",
+    "profiles": [
+      { "url": "https://github.com/LasperKaine", "label": "GitHub", "display": "github.com/LasperKaine" },
+      { "url": "https://linkedin.com/in/kasper-laine-4a131231", "label": "LinkedIn", "display": "linkedin.com/in/kasper-laine-4a131231" },
+      { "url": "https://portfolio-coming-soon.com", "label": "Portfolio", "display": "Portfolio (coming soon)" }
+    ]
+  },
+  "work": [
+    {
+      "name": "Joblink Oy",
+      "position": "Sales Associate / Cashier",
+      "startDate": "24.4.2023",
+      "endDate": "2.6.2024",
+      "summary": "Provided customer service in retail environment with focus on customer satisfaction. Managed point-of-sale systems, handled transactions accurately, and maintained clean, organized store environment.",
+      "skills": ["Customer Service", "Sales", "Cash Handling", "Retail Operations", "Communication"],
+      "color": "#8e44ad"
+    },
+    {
+      "name": "Alfons Digital Oy",
+      "position": "Project Coordinator / Content Developer",
+      "startDate": "8.1.2024",
+      "endDate": "25.5.2024",
+      "summary": "Managed digital projects and content development for multiple clients. Coordinated workflows, maintained project timelines, and ensured quality deliverables. Collaborated with cross-functional teams and communicated regularly with stakeholders.",
+      "skills": ["Project Management", "Client Communication", "Content Development", "Team Collaboration", "Documentation", "Organization"],
+      "color": "#8e44ad"
+    },
+    {
+      "name": "Helsinki Business College Oy",
+      "position": "Social Media Manager",
+      "startDate": "10.8.2022",
+      "endDate": "1.6.2023",
+      "summary": "Managed social media presence and created engaging content for student audience. Developed content strategy, planned campaigns, and analyzed engagement metrics. Built community and increased student participation through consistent, creative content.",
+      "skills": ["Social Media Management", "Content Creation", "Community Engagement", "Strategy", "Analytics"],
+      "color": "#8e44ad"
+    },
+    {
+      "name": "McDonald's",
+      "position": "Restaurant employee",
+      "startDate": "31.3.2022",
+      "endDate": "1.1.2023",
+      "summary": "Worked in fast-paced restaurant environment managing multiple tasks simultaneously. Provided excellent customer service, maintained food safety standards, and collaborated effectively with team members. Consistently met targets and received positive customer feedback.",
+      "skills": ["Customer Service", "Time Management", "Food Safety", "Team Collaboration", "Multitasking"],
+      "color": "#8e44ad"
+    },
+    {
+      "name": "Helsinki Business College Oy",
+      "position": "Event Coordinator & Community Manager",
+      "startDate": "4.11.2022",
+      "endDate": "24.2.2023",
+      "summary": "Organized and coordinated large-scale streaming event. Managed live operations, moderated community interactions, and ensured positive participant experience. Demonstrated leadership, adaptability, and strong organizational skills.",
+      "skills": ["Event Coordination", "Community Management", "Live Operations", "Leadership", "Problem-Solving"],
+      "color": "#8e44ad"
+    },
+    {
+      "name": "Helsingin kaupunki",
+      "position": "IT Support (Digitalkkari)",
+      "startDate": "10.8.2022",
+      "endDate": "9.10.2022",
+      "summary": "Provided customer support and technical guidance to diverse user groups. Excelled in troubleshooting, user education, and creating clear documentation. Demonstrated strong problem-solving and patience in high-pressure situations.",
+      "skills": ["Customer Support", "Problem-Solving", "User Education", "Documentation", "Communication"],
+      "color": "#8e44ad"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Metropolia University of Applied Sciences",
+      "area": "Information and Communication Technology",
+      "studyType": "Bachelor of Engineering (ICT)",
+      "startDate": "2025",
+      "endDate": "Present",
+      "summary": "Currently pursuing degree with focus on practical project work and collaboration. Gaining experience in team-based development, communication with stakeholders, and managing complex projects with multiple stakeholders."
+    },
+    {
+      "institution": "Business College Helsinki",
+      "area": "Information and Communication Technology",
+      "studyType": "Vocational Qualification",
+      "startDate": "4.8.2021",
+      "endDate": "22.5.2024",
+      "summary": "Completed vocational qualification with emphasis on practical, real-world applications.",
+      "courses": [
+        "Project management and teamwork",
+        "Professional communication",
+        "Working effectively in IT teams",
+        "Problem-solving and critical thinking"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Communication & Interpersonal",
+      "keywords": ["Customer Communication", "Presentation Skills", "Written Communication", "Active Listening", "Conflict Resolution", "Relationship Building"]
+    },
+    {
+      "name": "Project & Process Management",
+      "keywords": ["Project Coordination", "Organization", "Time Management", "Planning", "Documentation", "Quality Assurance"]
+    },
+    {
+      "name": "Content & Digital",
+      "keywords": ["Content Creation", "Social Media", "Digital Strategy", "Community Management", "Analytics", "Marketing"]
+    },
+    {
+      "name": "Problem-Solving & Support",
+      "keywords": ["Troubleshooting", "Customer Support", "Adaptability", "Critical Thinking", "Decision-Making"]
+    },
+    {
+      "name": "Operational",
+      "keywords": ["Retail Operations", "Warehouse Management", "Inventory Control", "POS Systems", "Food Safety"]
+    },
+    {
+      "name": "Technical Competencies",
+      "keywords": ["Windows", "Microsoft Office", "Basic IT Support", "Linux", "Digital Tools"]
+    },
+    {
+      "name": "Creative Skills",
+      "keywords": ["Content Creation", "Visual Design", "Photography", "Video Editing"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Finnish",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": "Good"
+    },
+    {
+      "language": "Swedish",
+      "fluency": "Basic"
+    }
+  ]
+}
