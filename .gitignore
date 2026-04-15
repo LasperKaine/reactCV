@@ -25,3 +25,4 @@ data/resume.json
 *.log
 npm-debug.log*
 
+src/data/resume.json
