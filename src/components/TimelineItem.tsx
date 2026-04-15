@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text } from '@react-pdf/renderer';
 import { Tag } from './Tag';
-import { tagColors } from '../constants/tagColors';
+
 
 interface TimelineItemProps {
   title: string;
@@ -38,7 +38,7 @@ export const TimelineItem = ({
     {tags && tags.length > 0 && (
       <View style={{ flexDirection: 'row', flexWrap: 'wrap' }}>
         {tags.map((tag) => (
-          <Tag key={tag} color={tagColors[tag.toLowerCase()] || tagColors.default}>
+          <Tag key={tag} color="#b565f5">
             {tag}
           </Tag>
         ))}

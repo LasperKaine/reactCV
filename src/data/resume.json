@@ -3,21 +3,14 @@
     "name": "Kasper Laine",
     "email": "kasperlaine05@gmail.com",
     "phone": "+358 44 0723762",
+    "location": "Helsinki, Finland",
+    "summary": "Software developer with practical full-stack web development experience",
+    "about": "Motivated software developer seeking a junior developer role to contribute to real-world projects and grow as part of a professional team. Experienced in building web applications with modern technologies including React, Node.js, and Express.",
     "profiles": [
-      {
-        "network": "LinkedIn",
-        "url": "https://www.linkedin.com/in/kasper-laine-a4a131231/"
-      },
-      {
-        "network": "GitHub",
-        "url": "https://github.com/LasperKaine"
-      },
-      {
-        "network": "Portfolio",
-        "url": "(coming soon)"
-      }
-    ],
-    "summary": "Software developer with practical experience in full-stack web development. Currently pursuing a Bachelor’s degree in Information and Communications Technology (Tieto- ja viestintätekniikan insinööri) at Metropolia University of Applied Sciences, following a completed vocational qualification in ICT from Business College Helsinki specializing in web development. Professional experience includes frontend development work at Alfons Digital Oy, building and maintaining WordPress-based websites using React, PHP, and modern frontend tooling. Comfortable working with React, Node.js, Express, and PHP, with a strong focus on building reliable, user-friendly web applications and continuously developing full-stack engineering skills. Seeking a junior developer role to contribute to real-world projects and grow as part of a development team."
+      { "url": "https://github.com/LasperKaine", "label": "GitHub", "display": "github.com/LasperKaine" },
+      { "url": "https://linkedin.com/in/kasper-laine-4a131231", "label": "LinkedIn", "display": "linkedin.com/in/kasper-laine-4a131231" },
+      { "url": "https://portfolio-coming-soon.com", "label": "Portfolio", "display": "Portfolio (coming soon)" }
+    ]
   },
   "work": [
     {
@@ -27,7 +20,7 @@
       "endDate": "25.5.2024",
       "summary": "Developed and maintained WordPress websites using React, PHP, and Tailwind. Built responsive UI components and worked with modern development workflows (Git, NPM). Collaborated on multiple client projects.",
       "skills": ["React", "WordPress", "PHP", "Tailwind", "CSS", "SCSS", "Git", "NPM"],
-      "color": "#2ecc71"
+      "color": "#8e44ad"
     },
     {
       "name": "Helsingin kaupunki",
@@ -35,8 +28,8 @@
       "startDate": "10.8.2022",
       "endDate": "9.10.2022",
       "summary": "Provided hands-on IT support including troubleshooting devices, installing computers, and guiding users. Created user-friendly documentation and assisted in digital support sessions.",
-      "skills": ["Windows", "iOS", "Android", "Excel", "Word"],
-      "color": "#3498db"
+      "skills": ["Windows", "iOS", "Android", "Excel", "Word", "Powerpoint"],
+      "color": "#8e44ad"
     },
     {
       "name": "Helsinki Business College Oy",
@@ -45,7 +38,16 @@
       "endDate": "1.6.2023",
       "summary": "Managed the school’s Snapchat account, creating content and promoting events. Increased student engagement and maintained consistent content strategy.",
       "skills": ["Content Creation", "Social Media"],
-      "color": "#9b59b6"
+      "color": "#8e44ad"
+    },
+    {
+      "name": "Helsinki Business College Oy",
+      "position": "Streamer and Moderator",
+      "startDate": "4.11.2022",
+      "endDate": "24.2 .2023",
+      "summary": "Participated in intensive streaming marathon event. Managed live Twitch streams, moderated chat, and planned streaming content strategy.",
+      "skills": ["Live Streaming", "Community Management", "Content Planning", "Twitch"],
+      "color": "#8e44ad"
     },
     {
       "name": "Other Experience",
@@ -53,7 +55,7 @@
       "startDate": "2020",
       "endDate": "2024",
       "summary": "Worked in fast-paced environments including retail and food service. Gained experience in customer service, teamwork, and responsibility.",
-      "color": "#95a5a6"
+      "color": "#8e44ad"
     }
   ],
   "education": [

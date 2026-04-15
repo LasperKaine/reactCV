@@ -1,32 +1,30 @@
-export interface Profile {
-  network: string;
-  url: string;
-}
-
 export interface BasicsData {
   name: string;
   email: string;
   phone?: string;
+  location?: string;
   summary?: string;
-  profiles?: Profile[];
+  about?: string;
+  profiles?: Array<{ url: string; label?: string; display?: string }>;
 }
 
 export interface WorkItem {
-  name: string;
   position: string;
+  name: string;
   startDate: string;
   endDate: string;
   summary: string;
   skills?: string[];
   color?: string;
+  location?: string;
 }
 
-export interface EducationItem {
-  institution: string;
-  area: string;
+export interface Education {
   studyType: string;
+  institution: string;
   startDate: string;
   endDate: string;
+  area: string;
 }
 
 export interface Skill {
@@ -41,8 +39,8 @@ export interface Language {
 
 export interface ResumeData {
   basics: BasicsData;
-  work: WorkItem[];
-  education: EducationItem[];
+  work?: WorkItem[];
+  education?: Education[];
   skills?: Skill[];
   languages?: Language[];
 }

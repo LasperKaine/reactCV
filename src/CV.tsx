@@ -1,89 +1,152 @@
 import React from "react";
 import { Document, Page, View, Text } from "@react-pdf/renderer";
-import { Box, TimelineItem } from "./components/index";
+import { styles } from "./styles/styles";
 import { ResumeData } from "./types/resume";
 
 export const CVDocument = ({ data }: { data: ResumeData }) => (
   <Document>
-    <Page style={{ padding: 30, fontSize: 10 }}>
+    <Page style={styles.page}>
       {/* HEADER */}
-      <View style={{ marginBottom: 20 }}>
-        <Text style={{ fontSize: 22, fontWeight: "bold" }}>
-          {data.basics.name}
-        </Text>
+      <View style={styles.header}>
+        <Text style={styles.name}>{data.basics.name}</Text>
         {data.basics.summary && (
-          <Text style={{ marginTop: 5 }}>{data.basics.summary}</Text>
+          <Text style={styles.title}>{data.basics.summary}</Text>
         )}
-
-        <View style={{ marginTop: 5 }}>
-          <Text>{data.basics.email}</Text>
+        <View style={styles.contactInfo}>
+          {data.basics.email && <Text>{data.basics.email}</Text>}
           {data.basics.phone && <Text>{data.basics.phone}</Text>}
-          {data.basics.profiles?.map((p: any, i: number) => (
-            <Text key={i}>{p.url}</Text>
-          ))}
+          {data.basics.location && <Text>{data.basics.location}</Text>}
         </View>
       </View>
 
       {/* MAIN 2-COLUMN LAYOUT */}
-      <View style={{ flexDirection: "row" }}>
+      <View style={styles.container}>
         {/* LEFT SIDEBAR */}
-        <View style={{ width: "35%", paddingRight: 15 }}>
+        <View style={styles.sidebar}>
+          {/* LINKS */}
+          {data.basics.profiles && data.basics.profiles.length > 0 && (
+            <View style={{ marginBottom: 10 }}>
+              <Text style={styles.sectionTitle}>Links</Text>
+              {data.basics.profiles.map((profile, idx) => (
+                <View key={idx} style={{ marginBottom: 3 }}>
+                  <Text style={{ ...styles.link, fontWeight: "bold", color: "#9d4edd" }}>
+                    {profile.label}
+                  </Text>
+                  <Text 
+                    style={{ ...styles.link, marginBottom: 0, color: "#b565f5", textDecoration: "underline" }}
+                    {...({ href: profile.url, allowEmpty: true } as any)}
+                  >
+                    {profile.display || profile.url}
+                  </Text>
+                </View>
+              ))}
+            </View>
+          )}
+
+          {/* SKILLS */}
+          {data.skills && data.skills.length > 0 && (
+            <View style={{ marginBottom: 10 }}>
+              <Text style={styles.sectionTitle}>Skills</Text>
+              {data.skills.map((skill, idx) => (
+                <View key={idx} style={styles.skillCategory}>
+                  <Text style={styles.skillCategoryTitle}>{skill.name}</Text>
+                  <Text style={styles.skillText}>
+                    {skill.keywords.join(", ")}
+                  </Text>
+                </View>
+              ))}
+            </View>
+          )}
+
           {/* EDUCATION */}
-          {data.education?.length > 0 && (
-            <Box title="Education">
+          {data.education && data.education.length > 0 && (
+            <View style={{ marginBottom: 10 }}>
+              <Text style={styles.sectionTitle}>Education</Text>
               {data.education.map((edu, idx) => (
-                <View key={idx} style={{ marginBottom: 8 }}>
-                  <Text style={{ fontWeight: "bold" }}>{edu.institution}</Text>
-                  <Text>{edu.studyType}</Text>
-                  <Text>
+                <View key={idx} style={styles.educationItem}>
+                  <Text style={styles.educationTitle}>
+                    {edu.institution}
+                  </Text>
+                  <Text style={styles.educationSubtitle}>
+                    {edu.studyType}
+                  </Text>
+                  <Text style={styles.educationSubtitle}>
                     {edu.startDate} - {edu.endDate}
                   </Text>
                 </View>
               ))}
-            </Box>
+            </View>
           )}
 
-          {/* SKILLS */}
-          {data.skills?.length ? (
-            <Box title="Skills">
-              {data.skills.map((skill: any, idx: number) => (
-                <View key={idx} style={{ marginBottom: 6 }}>
-                  <Text style={{ fontWeight: 'bold' }}>{skill.name}</Text>
-                  <Text>{skill.keywords.join(', ')}</Text>
-                </View>
-              ))}
-            </Box>
-          ) : null}
-
           {/* LANGUAGES */}
-          {data.languages?.length ? (
-            <Box title="Languages">
+          {data.languages && data.languages.length > 0 && (
+            <View>
+              <Text style={styles.sectionTitle}>Languages</Text>
               {data.languages.map((lang: any, idx: number) => (
-                <Text key={idx}>
-                  {lang.language} - {lang.fluency}
+                <Text key={idx} style={{ fontSize: 8.5, color: "#555", marginBottom: 2 }}>
+                  <Text style={{ fontWeight: "bold", color: "#9d4edd" }}>
+                    {lang.language}
+                  </Text>
+                  {" - "}
+                  {lang.fluency}
                 </Text>
               ))}
-            </Box>
-          ) : null}
+            </View>
+          )}
         </View>
 
         {/* RIGHT MAIN CONTENT */}
-        <View style={{ width: "65%" }}>
-          {/* WORK */}
-          {data.work?.length > 0 && (
-            <Box title="Experience" color={data.work[0]?.color}>
+        <View style={styles.mainContent}>
+          {/* ABOUT */}
+          {data.basics.about && (
+            <View style={{ marginBottom: 12 }}>
+              <Text style={styles.sectionTitle}>About</Text>
+              <Text style={styles.description}>{data.basics.about}</Text>
+            </View>
+          )}
+
+          {/* WORK EXPERIENCE */}
+          {data.work && data.work.length > 0 && (
+            <View>
+              <Text style={styles.sectionTitle}>Experience</Text>
               {data.work.map((job, idx) => (
-                <View key={idx} style={{ marginBottom: 12 }}>
-                  <Text style={{ fontWeight: "bold" }}>
-                    {job.position} - {job.name}
+                <View key={idx} style={styles.jobEntry}>
+                  <View
+                    style={{
+                      flexDirection: "row",
+                      justifyContent: "space-between",
+                      alignItems: "flex-start",
+                      marginBottom: 2,
+                    }}
+                  >
+                    <Text style={styles.jobTitle}>{job.position}</Text>
+                    <Text style={styles.dates}>
+                      {job.startDate} - {job.endDate}
+                    </Text>
+                  </View>
+                  <Text style={styles.company}>{job.name}</Text>
+                  {job.location && (
+                    <Text style={{ fontSize: 8.5, color: "#7f8c8d" }}>
+                      {job.location}
+                    </Text>
+                  )}
+                  <Text style={styles.description}>
+                    {job.summary}
                   </Text>
-                  <Text style={{ fontSize: 9, marginBottom: 4 }}>
-                    {job.startDate} - {job.endDate}
-                  </Text>
-                  <Text>{job.summary}</Text>
+                  {job.skills && job.skills.length > 0 && (
+                    <Text
+                      style={{
+                        fontSize: 8.5,
+                        color: "#b565f5",
+                        marginTop: 3,
+                      }}
+                    >
+                      {job.skills.join(" • ")}
+                    </Text>
+                  )}
                 </View>
               ))}
-            </Box>
+            </View>
           )}
         </View>
       </View>
