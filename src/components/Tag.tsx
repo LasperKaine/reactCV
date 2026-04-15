@@ -6,6 +6,8 @@ interface TagProps {
   color?: string;
 }
 
+// Small badge component for displaying skills and tags
+// Used throughout the CV to highlight keywords and technologies
 export const Tag = ({ children, color = '#e0e0e0' }: TagProps) => (
   <View
     style={{
@@ -17,6 +19,7 @@ export const Tag = ({ children, color = '#e0e0e0' }: TagProps) => (
       borderRadius: 3,
     }}
   >
+    {/* White text ensures readability on colored backgrounds */}
     <Text style={{ fontSize: 10, fontWeight: 'bold', color: '#fff' }}>
       {children}
     </Text>
