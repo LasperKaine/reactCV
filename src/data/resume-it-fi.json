@@ -23,15 +23,6 @@
       "color": "#8e44ad"
     },
     {
-      "name": "Helsingin kaupunki",
-      "position": "IT-tuen assistentti (Digitalkkari)",
-      "startDate": "10.8.2022",
-      "endDate": "9.10.2022",
-      "summary": "Annoin käytännön IT-tukea, mukaan lukien laitteiden vianmääritys, tietokoneiden asennus ja käyttäjien ohjaus. Loin käyttäjäystävällistä dokumentaatiota ja osallistuin digitaalisiin tukisessioihin.",
-      "skills": ["Windows", "iOS", "Android", "Excel", "Word", "PowerPoint"],
-      "color": "#8e44ad"
-    },
-    {
       "name": "Helsinki Business College Oy",
       "position": "Sosiaalisen median johtaja",
       "startDate": "10.8.2022",
@@ -50,8 +41,17 @@
       "color": "#8e44ad"
     },
     {
+      "name": "Helsingin kaupunki",
+      "position": "IT-tuen assistentti (Digitalkkari)",
+      "startDate": "10.8.2022",
+      "endDate": "9.10.2022",
+      "summary": "Annoin käytännön IT-tukea, mukaan lukien laitteiden vianmääritys, tietokoneiden asennus ja käyttäjien ohjaus. Loin käyttäjäystävällistä dokumentaatiota ja osallistuin digitaalisiin tukisessioihin.",
+      "skills": ["Windows", "iOS", "Android", "Excel", "Word", "PowerPoint"],
+      "color": "#8e44ad"
+    },
+    {
       "name": "Muut kokemukset",
-      "position": "Asiakaspalvelu ja aloittelijan tehtävät",
+      "position": "Asiakaspalvelu tehtävät",
       "startDate": "2020",
       "endDate": "2024",
       "summary": "Työskentelin nopeaa tahtia pitävässä ympäristössä kaupassa ja pikaruokaravintolassa. Sain kokemusta asiakaspalvelusta, tiimityöstä ja vastuullisuudesta.",

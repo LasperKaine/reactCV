@@ -1,0 +1,115 @@
+{
+  "basics": {
+    "name": "Kasper Laine",
+    "email": "kasperlaine05@gmail.com",
+    "phone": "+358 44 0723762",
+    "location": "Helsinki, Suomi",
+    "summary": "Ohjelmistotuotannon opiskelija, jolla on kokemusta asiakaspalvelusta, IT-tuesta ja digitaalisista projekteista.",
+    "about": "Olen ohjelmistotuotannon opiskelija Metropolia-ammattikorkeakoulussa. Minulla on käytännön kokemusta asiakaspalvelusta, IT-tuesta sekä digitaalisten projektien koordinoinnista. Työskentelen järjestelmällisesti, opin nopeasti ja sopeudun muuttuviin tilanteisiin. Etsin mahdollisuutta kehittyä ohjelmistokehityksen tai IT-alan tehtävissä.",
+    "profiles": [
+      { "url": "https://github.com/LasperKaine", "label": "GitHub", "display": "github.com/LasperKaine" },
+      { "url": "https://linkedin.com/in/kasper-laine-4a131231", "label": "LinkedIn", "display": "linkedin.com/in/kasper-laine-4a131231" },
+      { "url": "https://portfolio-coming-soon.com", "label": "Portfolio", "display": "Tulossa pian" }
+    ]
+  },
+  "work": [
+    {
+      "name": "Joblink Oy",
+      "position": "Myyjä / Kassatyöntekijä",
+      "startDate": "2023-04-24",
+      "endDate": "2024-06-02",
+      "summary": "Työskentelin vähittäiskaupassa asiakaspalvelun ja kassajärjestelmien parissa. Vastasin sujuvasta asiakaskokemuksesta ja kassatoiminnoista.",
+      "skills": ["Asiakaspalvelu", "Myynti", "Kassajärjestelmät"]
+    },
+    {
+      "name": "Alfons Digital Oy",
+      "position": "Projektikoordinaattori / Sisällöntuottaja",
+      "startDate": "2024-01-08",
+      "endDate": "2024-05-25",
+      "summary": "Osallistuin digitaalisten projektien koordinointiin ja sisällöntuotantoon useille asiakkaille. Huolehdin aikatauluista, työnkulkujen sujuvuudesta ja laadukkaasta lopputuloksesta yhteistyössä tiimin ja sidosryhmien kanssa.",
+      "skills": ["Projektinhallinta", "Asiakasviestintä", "Sisällöntuotanto", "Tiimityö", "Dokumentointi"]
+    },
+    {
+      "name": "Helsinki Business College Oy",
+      "position": "Sosiaalisen median vastaava",
+      "startDate": "2022-08-10",
+      "endDate": "2023-06-01",
+      "summary": "Vastasin sosiaalisen median sisällöstä ja kehittämisestä. Suunnittelin kampanjoita, analysoin tuloksia ja kasvatin opiskelijayhteisön aktiivisuutta.",
+      "skills": ["Sosiaalinen media", "Sisällöntuotanto", "Analytiikka", "Markkinointi"]
+    },
+    {
+      "name": "McDonald's",
+      "position": "Ravintolatyöntekijä",
+      "startDate": "2022-03-31",
+      "endDate": "2023-01-01",
+      "summary": "Työskentelin kiireisessä asiakaspalveluympäristössä. Huolehdin asiakaspalvelusta, hygieniavaatimuksista ja tiimityöstä.",
+      "skills": ["Asiakaspalvelu", "Tiimityö", "Ajanhallinta"]
+    },
+    {
+      "name": "Helsinki Business College Oy",
+      "position": "Striimaaja ja moderaattori",
+      "startDate": "2022-11-04",
+      "endDate": "2023-02-24",
+      "summary": "Järjestin ja moderoin live-striimejä. Vastasin tapahtumien sujuvuudesta ja osallistujakokemuksesta.",
+      "skills": ["Tapahtumatuotanto", "Yhteisönhallinta", "Viestintä"]
+    },
+    {
+      "name": "Helsingin kaupunki",
+      "position": "IT-tuki (Digitalkkari)",
+      "startDate": "2022-08-10",
+      "endDate": "2022-10-09",
+      "summary": "Tarjosin teknistä tukea ja opastusta eri käyttäjäryhmille. Ratkaisin ongelmatilanteita, ohjeistin käyttäjiä ja laadin selkeitä käyttöohjeita.",
+      "skills": ["IT-tuki", "Vianmääritys", "Käyttäjäkoulutus", "Viestintä"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Metropolia ammattikorkeakoulu",
+      "area": "Tieto- ja viestintätekniikka",
+      "studyType": "Insinööri (AMK)",
+      "startDate": "2025",
+      "endDate": "Nykyinen",
+      "summary": "Pääaineena ohjelmistotuotanto. Opin ohjelmistokehitystä, tiimityöskentelyä ja projektityötä, painottaen käytännön toteutuksia ja moderneja teknologioita."
+    },
+    {
+      "institution": "Business College Helsinki",
+      "area": "Tieto- ja viestintätekniikka",
+      "studyType": "Ammatillinen tutkinto",
+      "startDate": "2021-08-04",
+      "endDate": "2024-05-22",
+      "summary": "Suoritin ICT-alan perustutkinnon, jossa keskityttiin käytännön taitoihin ja työelämälähtöisiin projekteihin."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Viestintä",
+      "keywords": ["Asiakaspalvelu", "Kirjallinen viestintä", "Tiimityö"]
+    },
+    {
+      "name": "Projektityö",
+      "keywords": ["Projektien koordinointi", "Ajanhallinta", "Dokumentointi"]
+    },
+    {
+      "name": "Tekniset taidot",
+      "keywords": ["Windows", "Linux", "Microsoft Office", "Perustason IT-tuki"]
+    },
+    {
+      "name": "Digitaaliset taidot",
+      "keywords": ["Sisällöntuotanto", "Sosiaalinen media", "Analytiikka"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Suomi",
+      "fluency": "Äidinkieli"
+    },
+    {
+      "language": "Englanti",
+      "fluency": "Hyvä"
+    },
+    {
+      "language": "Ruotsi",
+      "fluency": "Perustaso"
+    }
+  ]
+}
