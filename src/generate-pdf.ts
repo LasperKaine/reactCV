@@ -1,19 +1,19 @@
 import { renderToFile } from '@react-pdf/renderer';
 import path from 'path';
-import resumeData from './data/resume.json';
+import resumeDataEn from './data/resume-en.json';
+import resumeDataFi from './data/resume-fi.json';
 import { CVDocument } from './CV';
 
-// Set output location for the generated PDF file
-const outputPath = path.join(__dirname, 'dist', 'resume.pdf');
+const distPath = path.join(__dirname, 'dist');
 
-// Render the CV document to a PDF file
-// Uses the resume.json data to populate the CV template
-renderToFile(CVDocument({ data: resumeData }), outputPath)
-  .then(() => {
-    // Success message with file path
-    console.log(`PDF generated: ${outputPath}`);
-  })
-  .catch((error) => {
-    // Handle any errors during PDF generation
-    console.error('Error generating PDF:', error);
-  });
+// Generate English resume
+const englishPath = path.join(distPath, 'resume-en.pdf');
+renderToFile(CVDocument({ data: { ...resumeDataEn, language: 'en' } }), englishPath)
+  .then(() => console.log(`English resume generated: ${englishPath}`))
+  .catch((error) => console.error('Error generating English resume:', error));
+
+// Generate Finnish resume
+const finnishPath = path.join(distPath, 'resume-fi.pdf');
+renderToFile(CVDocument({ data: { ...resumeDataFi, language: 'fi' } }), finnishPath)
+  .then(() => console.log(`Finnish resume generated: ${finnishPath}`))
+  .catch((error) => console.error('Error generating Finnish resume:', error));
