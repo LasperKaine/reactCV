@@ -1,23 +1,23 @@
 {
   "basics": {
-    "name": "Your Name",
+    "name": "Kasper Laine",
     "email": "kasperlaine05@gmail.com",
     "phone": "+358 44 0723762",
     "profiles": [
       {
         "network": "LinkedIn",
-        "url": "https://linkedin.com/in/your-profile"
+        "url": "https://www.linkedin.com/in/kasper-laine-a4a131231/"
       },
       {
         "network": "GitHub",
-        "url": "https://github.com/your-username"
+        "url": "https://github.com/LasperKaine"
       },
       {
         "network": "Portfolio",
-        "url": "https://your-portfolio.com"
+        "url": "(coming soon)"
       }
     ],
-    "summary": "ICT graduate from Business College Helsinki with a focus on web development. Frontend-oriented developer experienced in React, WordPress, and modern web technologies. Strong interest in building user-focused applications and continuously improving technical skills."
+    "summary": "Software developer with practical experience in full-stack web development. Currently pursuing a Bachelor’s degree in Information and Communications Technology (Tieto- ja viestintätekniikan insinööri) at Metropolia University of Applied Sciences, following a completed vocational qualification in ICT from Business College Helsinki specializing in web development. Professional experience includes frontend development work at Alfons Digital Oy, building and maintaining WordPress-based websites using React, PHP, and modern frontend tooling. Comfortable working with React, Node.js, Express, and PHP, with a strong focus on building reliable, user-friendly web applications and continuously developing full-stack engineering skills. Seeking a junior developer role to contribute to real-world projects and grow as part of a development team."
   },
   "work": [
     {
@@ -57,37 +57,45 @@
     }
   ],
   "education": [
-    {
-      "institution": "Business College Helsinki",
-      "area": "Information and Communication Technology",
-      "studyType": "Vocational Qualification",
-      "startDate": "4.8.2021",
-      "endDate": "Present",
-      "summary": "Specialized in web development.",
-      "courses": [
-        "Web development (JavaScript, Node.js)",
-        "Frontend development (HTML, CSS, React)",
-        "Working in software development teams",
-        "Software development fundamentals"
-      ]
-    }
-  ],
+  {
+    "institution": "Metropolia University of Applied Sciences",
+    "area": "Information and Communication Technology",
+    "studyType": "Bachelor of Engineering (ICT)",
+    "startDate": "2024",
+    "endDate": "Present",
+    "summary": "Bachelor of Engineering (ICT) student at Metropolia University of Applied Sciences, majoring in Software Production. Focused on software engineering, backend systems, and modern application development, with exposure to data-driven and AI-related software concepts. Building practical skills through development projects using modern web technologies and software engineering practices."
+  },
+  {
+    "institution": "Business College Helsinki",
+    "area": "Information and Communication Technology",
+    "studyType": "Vocational Qualification",
+    "startDate": "4.8.2021",
+    "endDate": "22.5.2024",
+    "summary": "Specialized in web development.",
+    "courses": [
+      "Web development (JavaScript, Node.js)",
+      "Frontend development (HTML, CSS, React)",
+      "Working in software development teams",
+      "Software development fundamentals"
+    ]
+  }
+],
   "skills": [
     {
       "name": "Frontend Development",
-      "keywords": ["HTML5", "CSS3", "JavaScript", "React", "Vue", "Tailwind"]
+      "keywords": ["HTML5", "CSS3", "JavaScript", "React", "Vue", "Tailwind", "Wordpress", "SCSS", "Typescript"]
     },
     {
       "name": "Backend & CMS",
-      "keywords": ["PHP", "WordPress", "Node.js"]
+      "keywords": ["PHP", "WordPress", "Node.js", "Express.js", "REST APIs", "MySQL", "MariaDB", "HeidiSQL"]
     },
     {
       "name": "Programming",
-      "keywords": ["Python (Basics)"]
+      "keywords": ["Python", "Java", "C#"]
     },
     {
       "name": "Tools",
-      "keywords": ["Git", "NPM", "Visual Studio Code"]
+      "keywords": ["Git", "NPM", "Visual Studio Code", "Nano", "Linux"]
     },
     {
       "name": "Office & Productivity",

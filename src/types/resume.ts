@@ -1,11 +1,19 @@
+export interface Profile {
+  network: string;
+  url: string;
+}
+
 export interface BasicsData {
   name: string;
   email: string;
+  phone?: string;
+  summary?: string;
+  profiles?: Profile[];
 }
 
-export interface WorkExperience {
-  position: string;
+export interface WorkItem {
   name: string;
+  position: string;
   startDate: string;
   endDate: string;
   summary: string;
@@ -13,16 +21,28 @@ export interface WorkExperience {
   color?: string;
 }
 
-export interface Education {
-  studyType: string;
+export interface EducationItem {
   institution: string;
+  area: string;
+  studyType: string;
   startDate: string;
   endDate: string;
-  area: string;
+}
+
+export interface Skill {
+  name: string;
+  keywords: string[];
+}
+
+export interface Language {
+  language: string;
+  fluency: string;
 }
 
 export interface ResumeData {
   basics: BasicsData;
-  work?: WorkExperience[];
-  education?: Education[];
+  work: WorkItem[];
+  education: EducationItem[];
+  skills?: Skill[];
+  languages?: Language[];
 }
