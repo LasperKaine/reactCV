@@ -2,10 +2,6 @@
 node_modules/
 package-lock.json
 
-# Generated files
-*.pdf
-data/resume.json
-
 # IDE
 .vscode/
 .idea/
